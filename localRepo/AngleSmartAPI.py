@@ -9,7 +9,7 @@ class AngleOne_Smart_API():
         self.username = username
         self.pwd = pwd
         self.token = token
-     
+        
     def connect(self):
         api_key = self.api_key
         username = self.username
