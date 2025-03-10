@@ -6,6 +6,8 @@ import pandas as pd
 class AngleOne_Smart_API():
     def __init__(self,api_key,username,pwd,token):
         self.api_key = api_key
+
+        
         self.username = username
         self.pwd = pwd
         self.token = token
